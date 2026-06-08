@@ -8,29 +8,33 @@ Ressources associées au dossier industriel pour la préparation au concours de 
 
 Ressources liées à l'analyse du système SAVER 3X90.
 
-### documentation/
-- `saver/` — spécifications et notices constructeur
-- `normes/` — normes applicables (ASTM D4728, ISO, SAVER…)
-- `mesures/` — données expérimentales brutes
+### notebooks/
+Notebooks Jupyter exécutables localement ou dans le navigateur via [Basthon](https://notebook.basthon.fr).
+
+- `dilemme_choc_vibration.ipynb` — Système masse-ressort-amortisseur 1 DDL, transmissibilité, réponse au choc
+- `fourier_transformees.ipynb` — Les quatre transformées de Fourier (TF, SF, TFTD, TFD)
+- `plancher_de_bruit.ipynb` — Plancher de bruit 0,02 g_rms / 500 Hz
+- `signaux_stochastiques.ipynb` — Signaux stochastiques
+- `synthese_spectrale.ipynb` — Synthèse spectrale à phases aléatoires
+- `welch_explication.ipynb` — Méthode de Welch, DSP pas à pas
 
 ### simulations/
-Scripts d'analyse du système réel (modélisation, validation, identification de paramètres).
+- `simscape-1ddl/` — Simulation Simscape Multibody du système masse-ressort-amortisseur 1 DDL (fichiers `.slx`, `init.m`, CAO SolidWorks)
+
+### documentation/
+- `saver/lansmont/` — spécifications et notices constructeur SAVER 3X90
+- `saver/kistler/` — documentation capteurs Kistler
+- `normes/` — normes applicables (ASTM D4728…)
+- `mesures/` — données expérimentales brutes
+
+### references-bib/
+Références bibliographiques et articles scientifiques.
 
 ---
 
 ## developpement-pedagogique/
 
-Ressources à vocation pédagogique exploitant le dossier industriel.
-
-### notebooks/
-Notebooks Jupyter exécutables localement ou dans le navigateur via [Basthon](https://notebook.basthon.fr).
-
-- `fourier_transformees.ipynb` — Les quatre transformées de Fourier (TF, SF, TFTD, TFD)
-- `welch_explication.ipynb` — Méthode de Welch, DSP pas à pas
-- `dilemme_choc_vibration.ipynb` — Système masse-ressort-amortisseur 1 DDL, transmissibilité, réponse au choc
-
-### simulations/
-Simulations simplifiées et didactisées pour l'enseignement.
+Section en cours de construction.
 
 ---
 
@@ -38,7 +42,7 @@ Simulations simplifiées et didactisées pour l'enseignement.
 
 Complément — ressources ayant permis la conception de la plateforme de Stewart utilisée en TP.
 
-- `cao/` — fichiers SolidWorks (pièces et assemblage)
+- `cao/` — fichiers SolidWorks version 2025 (pièces et assemblages)
 - `conception/` — documents de conception et plans
 
 ---
